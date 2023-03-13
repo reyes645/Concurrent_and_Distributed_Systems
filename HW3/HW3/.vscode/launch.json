@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BookClient",
+            "request": "launch",
+            "mainClass": "BookClient",
+            "projectName": "HW3_a64e71be",
+            "args": ["src/command_file.txt", "1"]
+        },
+        {
+            "type": "java",
+            "name": "BookServer",
+            "request": "launch",
+            "mainClass": "BookServer",
+            "projectName": "HW3_a64e71be",
+            "args": "src/input_file.txt"
+        }
+    ]
+}

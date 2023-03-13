@@ -1,0 +1,2 @@
+The communication mode is set to UDP
+The communication mode is set to UDP

@@ -1,0 +1,3 @@
+set-mode u
+set-mode u
+exit
